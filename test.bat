@@ -1,2 +1,2 @@
 @echo off
-gcc test.c const.h -o test
+gcc test.c const.h concat.c -o test

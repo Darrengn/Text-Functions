@@ -8,7 +8,7 @@
  * usage argv[1] is input file, argv[2] is output, default is console
  */
 int main(int argc, char **argv) {
-    
+    /* need to change with flags
     switch (argc) {
     case 1:
         in_file = fopen(*(argv + 1), "r");
@@ -21,7 +21,7 @@ int main(int argc, char **argv) {
         in_file = stdin;
         out_file = stdout;
         break;
-    }
+    }*/
     //call function here
-    
+    printf("%s",concatNull("a","b"));
 }
