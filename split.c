@@ -13,16 +13,12 @@
  * @return a pointer to the first string
  */
 char* split_str(char* str, int ind, char** ret_str) {
-    int len = 0;
+    int len = strLength(str);
     int i;
     int j;
-    //find str length
-    for(i = 0; str[i] != '\0'; i++) {
-        len++;
-    }
     //check if ind is valid
     if (ind >= len || ind <= 0) {
-        printf("invalid ind on split_str");
+        printf("invalid index on split_str");
         return NULL;
     }
     char *str1 = malloc((ind + 1) * sizeof(char));

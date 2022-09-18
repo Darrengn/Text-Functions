@@ -9,15 +9,8 @@
  * @return memory allocated string
  */
 char* concatNull(char* s1, char* s2) {
-    int len1 = 0;
-    int len2 = 0;
-    int i;
-    for(i = 0; s1[i] != '\0'; i++) {
-        len1++;
-    }
-    for(i = 0; s2[i] != '\0'; i++) {
-        len2++;
-    }
+    int len1 = strLength(s1);
+    int len2 = strLength(s2);
     return concat(s1, s2, len1, len2);
 }
 

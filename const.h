@@ -10,4 +10,6 @@ char* concat(char*, char*, int, int);
 
 char* split_str(char*, int, char**);
 
+int strLength(char*);
+
 #endif
