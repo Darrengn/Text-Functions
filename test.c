@@ -23,5 +23,10 @@ int main(int argc, char **argv) {
         break;
     }*/
     //call function here
-    printf("%s",concatNull("a","b"));
+    char* str2;
+    char* str = split_str("This is a test", 5, &str2);
+    printf("%s \n", str);
+    printf("%s", str2);
+    free(str);
+    free(str2);
 }

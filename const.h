@@ -8,4 +8,6 @@
 char* concatNull(char* s1, char* s2);
 char* concat(char*, char*, int, int);
 
+char* split_str(char*, int, char**);
+
 #endif
