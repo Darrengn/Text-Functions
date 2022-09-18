@@ -12,4 +12,6 @@ char* split_str(char*, int, char**);
 
 int strLength(char*);
 
+int indexOf(char*, char*, int, int);
+
 #endif

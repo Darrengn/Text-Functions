@@ -23,10 +23,6 @@ int main(int argc, char **argv) {
         break;
     }*/
     //call function here
-    char* str2;
-    char* str = split_str("This is a test", 5, &str2);
-    printf("%s \n", str);
-    printf("%s", str2);
-    free(str);
-    free(str2);
+    int index = indexOf("b","this is a test", 8, 10);
+    printf("%d \n", index);
 }
