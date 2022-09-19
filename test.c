@@ -23,6 +23,6 @@ int main(int argc, char **argv) {
         break;
     }*/
     //call function here
-    int index = indexOf("b","this is a test", 8, 10);
+    int index = instancesOf("ab","ababbabaa", 0, 9);
     printf("%d \n", index);
 }

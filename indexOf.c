@@ -9,6 +9,7 @@
  * @param sstr search string, the string that is looked through
  * @param startInd the index to start at (inclusive)
  * @param endInd the index to end at (exclusive)
+ * @return the index of the first char and first instance of fstr
  */
 int indexOf(char* fstr, char* sstr, int startInd, int endInd) {
     int fstrLen = strLength(fstr);
@@ -17,9 +18,9 @@ int indexOf(char* fstr, char* sstr, int startInd, int endInd) {
     int j;
     //check for valid parameters
     if(startInd >= endInd || startInd < 0 || startInd >= sstrLen || 
-        endInd < 1 || endInd >= sstrLen || fstr == NULL || sstr == NULL) 
+        endInd < 1 || endInd > sstrLen || fstr == NULL || sstr == NULL) 
     {    
-        printf("invalid parameters");
+        printf("invalid parameters in indexOf");
         return -1;
     }
     //loop to search for the first char of fstr
