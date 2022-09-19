@@ -16,4 +16,6 @@ int indexOf(char*, char*, int, int);
 
 int instancesOf(char*, char*, int, int);
 
+char* reverse(char*);
+
 #endif

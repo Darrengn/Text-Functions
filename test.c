@@ -23,6 +23,5 @@ int main(int argc, char **argv) {
         break;
     }*/
     //call function here
-    int index = instancesOf("ab","ababbabaa", 0, 9);
-    printf("%d \n", index);
+    printf("%s", reverse("abc"));
 }
