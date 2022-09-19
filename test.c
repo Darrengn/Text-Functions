@@ -23,5 +23,5 @@ int main(int argc, char **argv) {
         break;
     }*/
     //call function here
-    printf("%s", reverse("abc"));
+    printf("%d", equals("ca", "ab"));
 }

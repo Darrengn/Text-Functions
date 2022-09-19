@@ -18,4 +18,6 @@ int instancesOf(char*, char*, int, int);
 
 char* reverse(char*);
 
+int equals(char*, char*);
+
 #endif
