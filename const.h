@@ -20,4 +20,6 @@ char* reverse(char*);
 
 int equals(char*, char*);
 
+int isPalindrome(char*);
+
 #endif

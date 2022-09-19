@@ -23,5 +23,5 @@ int main(int argc, char **argv) {
         break;
     }*/
     //call function here
-    printf("%d", equals("ca", "ab"));
+    printf("%d", isPalindrome("cac"));
 }
